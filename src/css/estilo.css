@@ -1,0 +1,130 @@
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 60px;
+}
+
+.opcoes {
+    height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 66vw;
+    font-size:large;
+}
+
+.op1:hover {
+    height: 40px;
+    transition: all, 0.2s;
+    color: rgb(255, 255, 255);
+}
+
+.op2:hover {
+    height: 40px;
+    transition: all, 0.2s;
+    color: rgb(255, 255, 255);
+}
+
+.op1 {
+    height: 40px;
+    color: rgb(233, 56, 56);
+    text-decoration: none;
+}
+
+.op2  {
+    color: blue;
+    margin-left: 6vw;
+    text-decoration: none;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 350px;
+    width: 650px;
+    margin-left: 0px;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.712);
+    color: #fff;
+    transform-origin: left;
+    transition: all, 3s;
+    
+}
+
+.titulo {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+.descricao {
+    color: white;
+    margin-left: 20px;
+    font-size: small;
+    text-align: left;
+}
+
+.logo {
+    width: auto;
+    height: 70px;
+}
+
+.videofundo {
+    position: fixed;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    object-fit: cover;
+}
+
+p {
+    width: 600px;
+}
+
+.lata {
+    width: auto;
+    height: 270px;
+    margin-top: 46px;
+    position: absolute;
+    margin-left: 45px;
+}
+
+.lata2 {
+    margin-right: -100px;
+    width: auto;
+    margin-left: 105px;
+    margin-top: 55px;
+    height: 300px;
+    transform: rotate(16deg);
+}
+
+.lata3 {
+    position: absolute;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 86px;
+    height: 270px;
+    transform: rotate(-13deg);
+}
+
+.produtos {
+    transition: all, 3.2s;
+    transform: scale(1) translate(-0%, -25%);
+    width: 90vh;
+    height: 90vh;
+    border-radius: 100%;
+    background-color: rgba(0, 47, 255, 0.89);
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 900px;
+    display:flex;
+}
